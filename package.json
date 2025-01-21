@@ -1,0 +1,37 @@
+{
+  "name": "playwright-library",
+  "version": "1.0.0",
+  "description": "A Playwright library for testing REST APIs, web applications, and database interactions.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "playwright test",
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "api",
+    "database",
+    "page-object-model"
+  ],
+  "author": "Nishar Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "axios": "^0.21.1",
+    "base-64": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "faker": "^6.6.6",
+    "pg": "^8.6.0",
+    "playwright": "^1.0.0",
+    "playwright-ctrf-json-reporter": "^0.0.18",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.0",
+    "eslint": "^7.0.0",
+    "typescript": "^4.0.0"
+  }
+}
